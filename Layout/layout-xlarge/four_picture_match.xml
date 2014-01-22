@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainFrame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginLeft="0dp"
+    android:background="@android:color/transparent"
+    android:baselineAligned="false"
+    android:gravity="center|top" >
+
+    <Button
+        android:id="@+id/topFrame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@layout/square_button"
+        android:gravity="center"
+        android:paddingBottom="55dp"
+        android:paddingTop="55dp"
+        android:text="@string/myTextString"
+        android:textColor="#ffffff"
+        android:textSize="80sp" />
+
+    <LinearLayout
+        android:id="@+id/bottomFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/topFrame"
+        android:layout_gravity="center|bottom"
+        android:layout_marginTop="0dp"
+        android:background="@android:color/transparent"
+        android:baselineAligned="false"
+        android:gravity="center|bottom" >
+
+        <FrameLayout
+            android:id="@+id/frameOne"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent" >
+
+            <ImageButton
+                android:id="@+id/imageOneFPM"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/myDescription"
+                android:gravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/zebra" />
+
+            <TextView
+                android:id="@+id/textOneFPM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|bottom"
+                android:layout_marginBottom="65dp"
+                android:background="#99000000"
+                android:gravity="center_horizontal"
+                android:text="@string/myTextString"
+                android:textColor="#ffffff"
+                android:textSize="40sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frameTwo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent" >
+
+            <ImageButton
+                android:id="@+id/imageTwoFPM"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/myDescription"
+                android:gravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/zebra" />
+
+            <TextView
+                android:id="@+id/textTwoFPM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|bottom"
+                android:layout_marginBottom="65dp"
+                android:background="#99000000"
+                android:gravity="center_horizontal"
+                android:text="@string/myTextString"
+                android:textColor="#ffffff"
+                android:textSize="40sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frameThree"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent" >
+
+            <ImageButton
+                android:id="@+id/imageThreeFPM"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/myDescription"
+                android:gravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/zebra" />
+
+            <TextView
+                android:id="@+id/textThreeFPM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|bottom"
+                android:layout_marginBottom="65dp"
+                android:background="#99000000"
+                android:gravity="center_horizontal"
+                android:text="@string/myTextString"
+                android:textColor="#ffffff"
+                android:textSize="40sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frameFour"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent" >
+
+            <ImageButton
+                android:id="@+id/imageFourFPM"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/myDescription"
+                android:gravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/zebra" />
+
+            <TextView
+                android:id="@+id/textFourFPM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|bottom"
+                android:layout_marginBottom="65dp"
+                android:background="#99000000"
+                android:gravity="center_horizontal"
+                android:text="@string/myTextString"
+                android:textColor="#ffffff"
+                android:textSize="40sp" />
+        </FrameLayout>
+    </LinearLayout>
+
+</RelativeLayout>

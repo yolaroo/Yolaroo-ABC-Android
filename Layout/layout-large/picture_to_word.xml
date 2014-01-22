@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/topFrame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="20dp"
+    android:background="@android:color/transparent"
+    android:baselineAligned="false"
+    android:clipChildren="false"
+    android:gravity="center|top"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/frameOne"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight=".6"
+        android:background="@android:color/transparent"
+        android:minHeight="400dp"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@+id/frameOneTop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="@layout/round_button"
+            android:padding="10dp" >
+
+            <ImageButton
+                android:id="@+id/imageOne"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/myDescription"
+                android:gravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/zebra" />
+
+            <TextView
+                android:id="@+id/textOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|bottom"
+                android:layout_marginBottom="30dp"
+                android:background="#99000000"
+                android:gravity="center_horizontal"
+                android:text="@string/myTextString"
+                android:textColor="#ffffff"
+                android:textSize="30sp" />
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/buttonOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:layout_marginTop="15dp"
+            android:layout_weight=".2"
+            android:background="@layout/round_button"
+            android:gravity="center|bottom"
+            android:paddingBottom="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="15dp"
+            android:text="@string/myTextString"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/frameTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight=".6"
+        android:background="@android:color/transparent"
+        android:minHeight="300dp"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@+id/frameTwoTop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="@layout/round_button"
+            android:padding="10dp" >
+
+            <ImageButton
+                android:id="@+id/imageTwo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/myDescription"
+                android:gravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/zebra" />
+
+            <TextView
+                android:id="@+id/textTwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|bottom"
+                android:layout_marginBottom="30dp"
+                android:background="#99000000"
+                android:gravity="center_horizontal"
+                android:text="@string/myTextString"
+                android:textColor="#ffffff"
+                android:textSize="30sp" />
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/buttonTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:layout_marginTop="15dp"
+            android:layout_weight=".2"
+            android:background="@layout/round_button"
+            android:gravity="center|bottom"
+            android:paddingBottom="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="15dp"
+            android:text="@string/myTextString"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/frameThree"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight=".6"
+        android:background="@android:color/transparent"
+        android:minHeight="300dp"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@+id/frameThreeTop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="@layout/round_button"
+            android:padding="10dp" >
+
+            <ImageButton
+                android:id="@+id/imageThree"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/myDescription"
+                android:gravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/zebra" />
+
+            <TextView
+                android:id="@+id/textThree"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|bottom"
+                android:layout_marginBottom="30dp"
+                android:background="#99000000"
+                android:gravity="center|bottom"
+                android:text="@string/myShortTextString"
+                android:textColor="#ffffff"
+                android:textSize="30sp" />
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/buttonThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:layout_marginTop="15dp"
+            android:layout_weight=".2"
+            android:background="@layout/round_button"
+            android:gravity="center|bottom"
+            android:paddingBottom="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="15dp"
+            android:text="@string/myTextString"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/frameFour"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight=".6"
+        android:background="@android:color/transparent"
+        android:minHeight="300dp"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@+id/frameFourTop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="@layout/round_button"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <ImageButton
+                android:id="@+id/imageFour"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/myDescription"
+                android:gravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/zebra" />
+
+            <TextView
+                android:id="@+id/textFour"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|bottom"
+                android:layout_marginBottom="30dp"
+                android:background="#99000000"
+                android:gravity="center|bottom"
+                android:text="@string/myShortTextString"
+                android:textColor="#ffffff"
+                android:textSize="30sp" />
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/buttonFour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:layout_marginTop="15dp"
+            android:layout_weight=".2"
+            android:background="@layout/round_button"
+            android:gravity="center|bottom"
+            android:paddingBottom="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="15dp"
+            android:text="@string/myShortTextString"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+</LinearLayout>

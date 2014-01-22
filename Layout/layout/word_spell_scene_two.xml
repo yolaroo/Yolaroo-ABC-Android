@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/spellingSingleWord"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginLeft="0dp"
+    android:background="@android:color/transparent"
+    android:baselineAligned="false"
+    android:gravity="center|top"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/bigSpellingImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/myDescription"
+        android:gravity="center"
+        android:padding="15dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/zebra" />
+
+    <LinearLayout
+        android:id="@+id/frameTwoTop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:background="#30cccccc"
+        android:gravity="center"
+        android:minHeight="120dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="15dp"
+        android:padding="5dp" >
+    </LinearLayout>
+
+</LinearLayout>

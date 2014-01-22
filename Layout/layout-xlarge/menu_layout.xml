@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menuLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="80dp"
+    android:paddingBottom="80dp"
+        android:paddingTop="20dp"
+    
+    android:background="@layout/shadow_layout"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/thisname"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:background="@layout/round_button_white"
+        android:gravity="center"
+        android:paddingBottom="@dimen/button_padding_top"
+        android:paddingLeft="@dimen/button_padding_side"
+        android:paddingRight="@dimen/button_padding_side"
+        android:paddingTop="@dimen/button_padding_top"
+        android:text="@string/titlename"
+        android:textColor="#ffffff"
+        android:textSize="60sp" />
+
+    <LinearLayout
+        android:id="@+id/menuTop"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="50dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button0"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="@layout/round_button"
+            android:gravity="center"
+            android:paddingBottom="@dimen/button_padding_top"
+            android:paddingLeft="@dimen/button_padding_side"
+            android:paddingRight="@dimen/button_padding_side"
+            android:paddingTop="@dimen/button_padding_top"
+            android:text="@string/gameZero"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button0ii"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="@layout/round_button"
+            android:gravity="center"
+            android:paddingBottom="@dimen/button_padding_top"
+            android:paddingLeft="@dimen/button_padding_side"
+            android:paddingRight="@dimen/button_padding_side"
+            android:paddingTop="@dimen/button_padding_top"
+            android:text="@string/gameZeroii"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button1"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="@layout/round_button"
+            android:gravity="center"
+            android:paddingBottom="@dimen/button_padding_top"
+            android:paddingLeft="@dimen/button_padding_side"
+            android:paddingRight="@dimen/button_padding_side"
+            android:paddingTop="@dimen/button_padding_top"
+            android:text="@string/gameOne"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button2"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="@layout/round_button"
+            android:gravity="center"
+            android:paddingBottom="@dimen/button_padding_top"
+            android:paddingLeft="@dimen/button_padding_side"
+            android:paddingRight="@dimen/button_padding_side"
+            android:paddingTop="@dimen/button_padding_top"
+            android:text="@string/gameTwo"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/menuBottom"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button3"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="@layout/round_button"
+            android:gravity="center"
+            android:paddingBottom="@dimen/button_padding_top"
+            android:paddingLeft="@dimen/button_padding_side"
+            android:paddingRight="@dimen/button_padding_side"
+            android:paddingTop="@dimen/button_padding_top"
+            android:text="@string/gameThree"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button4"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="@layout/round_button"
+            android:gravity="center"
+            android:paddingBottom="@dimen/button_padding_top"
+            android:paddingLeft="@dimen/button_padding_side"
+            android:paddingRight="@dimen/button_padding_side"
+            android:paddingTop="@dimen/button_padding_top"
+            android:text="@string/gameFour"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/game4ii"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="@layout/round_button"
+            android:gravity="center"
+            android:paddingBottom="@dimen/button_padding_top"
+            android:paddingLeft="@dimen/button_padding_side"
+            android:paddingRight="@dimen/button_padding_side"
+            android:paddingTop="@dimen/button_padding_top"
+            android:text="@string/gameFourii"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button5"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="@layout/round_button"
+            android:gravity="center"
+            android:paddingBottom="@dimen/button_padding_top"
+            android:paddingLeft="@dimen/button_padding_side"
+            android:paddingRight="@dimen/button_padding_side"
+            android:paddingTop="@dimen/button_padding_top"
+            android:text="@string/gameFive"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+</LinearLayout>
